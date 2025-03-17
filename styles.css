@@ -8,13 +8,21 @@ body {
     margin: 34px;
 }
 
-h1 {
+.name {
     font-size: 24px;
-    font-weight: regular;
+    font-weight: regular; 
 }
 
 p, a {
-    font-size: 12px;
+    font-size: 13px;
+}
+
+i {
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .resume {
@@ -24,6 +32,9 @@ p, a {
     height: 842px;
     border: 1px solid black;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 header {
@@ -37,9 +48,19 @@ header {
 .resume__additional-info {
     display: flex;
     gap: 8px;
+    justify-content: space-between;
 }
 
 .divider {
     border-left: 1px solid green;
     height: auto;
+}
+
+.education-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-details__right {
+    text-align: right;;
 }
