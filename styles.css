@@ -10,11 +10,16 @@ body {
 
 .name {
     font-size: 24px;
-    font-weight: regular; 
+    font-weight: normal; 
 }
 
 p, a, span, i {
     font-size: 13px;
+}
+
+time {
+    font-size: 13px;
+    font-style: italic;
 }
 
 .bold {
@@ -24,8 +29,8 @@ p, a, span, i {
 .resume {
     margin: auto;
     padding: 28px 33px;; 
-    width: 595px;
-    height: 842px;
+    width: 37rem;
+    height: 52rem;
     border: 1px solid black;
     border-radius: 4px;
     display: flex;
@@ -47,8 +52,14 @@ header {
     justify-content: space-between;
 }
 
+.resume__body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .divider {
-    border-left: 1px solid green;
+    border-left: 1px solid black;
     height: auto;
 }
 
@@ -58,7 +69,7 @@ header {
 }
 
 .education-details__right {
-    text-align: right;;
+    text-align: right;
 }
 
 .company-details {
@@ -73,7 +84,7 @@ header {
 
 li {
     font-size: 13px;
-    text-align: justify;
+    text-wrap: left;
 }
 
 .experience-container {
@@ -85,3 +96,4 @@ li {
 .responsibilities {
     margin-left: 20px;
 }
+
