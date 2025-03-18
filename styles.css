@@ -13,11 +13,7 @@ body {
     font-weight: regular; 
 }
 
-p, a {
-    font-size: 13px;
-}
-
-i {
+p, a, span, i {
     font-size: 13px;
 }
 
@@ -63,4 +59,29 @@ header {
 
 .education-details__right {
     text-align: right;;
+}
+
+.company-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.responsibilities {
+    margin-left: 20px;
 }
